@@ -1,4 +1,5 @@
 # DevOps Unit 5 Workshop
+[![Continuous Integration](https://github.com/mehrabb/DevOps-Unit-5-Workshop/actions/workflows/ci_workflow.yml/badge.svg)](https://github.com/mehrabb/DevOps-Unit-5-Workshop/actions/workflows/ci_workflow.yml)
 
 Welcome to the Unit 5 Workshop!
 
