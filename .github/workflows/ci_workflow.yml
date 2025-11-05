@@ -1,6 +1,12 @@
 name: Continuous Integration
 
-on: [push]
+on: 
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
 
 jobs:
   dotnet:                     # Job 1: .NET build and test
