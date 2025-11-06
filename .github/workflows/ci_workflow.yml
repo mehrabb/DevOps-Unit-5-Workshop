@@ -44,11 +44,11 @@ jobs:
       - name: Notify Slack
         run: |
           if [ "${{ job.status }}" == "success" ]; then
-            MESSAGE="✅ CI workflow succeeded!"
+            MESSAGE=" CI workflow succeeded!"
           elif [ "${{ job.status }}" == "failure" ]; then
-            MESSAGE="❌ CI workflow failed!"
+            MESSAGE=" CI workflow failed!"
           elif [ "${{ job.status }}" == "cancelled" ]; then
-            MESSAGE="⚠️ CI workflow was cancelled!"
+            MESSAGE=" CI workflow was cancelled!"
           fi
 
           curl -X POST -H 'Content-type: application/json' \
